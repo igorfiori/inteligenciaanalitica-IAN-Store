@@ -1,10 +1,18 @@
+Vou atualizar o README para incluir as duas imagens. Para GitHub, precisamos fazer referência às imagens usando tags Markdown:
+
 # Dashboard de Análise de Vendas - IAN Store
 
 ## Sobre o Projeto
 
 Este repositório contém um dashboard analítico desenvolvido para a IAN Store, com foco na análise de desempenho de vendas do primeiro trimestre de 2019. O projeto foi desenvolvido utilizando Power BI e apresenta visualizações interativas que permitem análises detalhadas sobre tendências de vendas, padrões de consumo e segmentação de mercado.
 
+## Visualizações do Dashboard
 
+### Dashboard Principal - KPIs e Tendências
+![Dashboard Principal](./dashboard_1.JPG)
+
+### Análise Detalhada - Padrões de Consumo e Correlações
+![Análise Detalhada](./dashboard_2.JPG)
 
 ## Funcionalidades
 
@@ -41,6 +49,8 @@ Este repositório contém um dashboard analítico desenvolvido para a IAN Store,
 
 ```
 ├── README.md                       # Documentação do projeto
+├── dashboard_1.JPG                 # Imagem do dashboard principal
+├── dashboard_2.JPG                 # Imagem da análise detalhada
 ├── data/                           # Dados utilizados
 │   └── IAN_Store_Dataset.xlsx      # Dataset principal
 ├── reports/                        # Relatórios gerados
